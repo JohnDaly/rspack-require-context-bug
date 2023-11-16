@@ -29,7 +29,7 @@ function __webpack_require__(moduleId) {
  __webpack_require__.m = __webpack_modules__;
 // webpack/runtime/load_chunk_with_module
 !function() {
-var map = {"./src/render.js": ["src_render_js",],};
+var map = {"./src/render.js": ["src_render_js"]};
 
 __webpack_require__.el = function(module) {
   var chunkId = map[module];

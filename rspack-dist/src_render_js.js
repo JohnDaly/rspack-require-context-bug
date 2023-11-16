@@ -7,6 +7,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* harmony import */var _render_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/* ./render.css */"./src/render.css");
 
+const assetsContext = require.context(`./assets`, true, /\.js$/iu);
  function render() {
     const el = document.createElement('div');
     el.classList.add('text');
